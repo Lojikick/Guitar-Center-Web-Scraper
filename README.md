@@ -25,3 +25,7 @@ Installation --
 Install dependencies:
 
 bash mvn clean install
+
+NOTICE: 
+
+This tool is for educational purposes only. Please respect Guitar Center's terms of service and robots.txt file. 

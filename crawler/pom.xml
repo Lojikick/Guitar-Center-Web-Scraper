@@ -32,12 +32,46 @@
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- Selenium WebDriver dependencies -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.15.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-chrome-driver</artifactId>
+        <version>4.15.0</version>
+    </dependency>
   
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>tools.nrepl</artifactId>
       <version>0.2.13</version>
     </dependency>
+
+    <!-- Apache POI for Excel files -->
+
+
+    <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>1.16.1</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.4</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.4</version>
+    </dependency>
+
   </dependencies>
 
   <build>
